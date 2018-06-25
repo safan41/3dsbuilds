@@ -23,6 +23,7 @@ install:
   - sudo dkp-pacman -S devkitARM citro3d ctru --noconfirm
   - export DEVKITPRO=/opt/devkitpro
   - export DEVKITARM=${DEVKITPRO}/devkitARM
+  - cd GameYob/
 
 script:
   - make 3ds
