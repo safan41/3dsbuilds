@@ -1,2 +1,1 @@
-sed 's/NATIVE//g' GameYob/Makefile > GameYob/Makefile && sed 
-'s/SWITCH//g' GameYob/Makefile > GameYob/Makefile
+sed -n '/SWITCH/!p' file && sed -n '/NATIVE/!p' GameYob/Makefile 
