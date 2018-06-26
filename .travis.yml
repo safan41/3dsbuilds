@@ -25,7 +25,7 @@ install:
   - export DEVKITARM=${DEVKITPRO}/devkitARM
 
 script:
-  - ./3dsmake.sh
+  - sudo ./3dsmake.sh
   - cd GameYob/
   - make
   
