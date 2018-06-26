@@ -26,7 +26,7 @@ install:
   - cd GameYob/
 
 script:
-  - make 3ds
+  - make 3DS
   
 addons:
   apt:
